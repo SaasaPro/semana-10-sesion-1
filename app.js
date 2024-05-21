@@ -61,9 +61,6 @@ while(i <= 10){
 // forEach se utiliza para recorrer arreglos
 // map se utiliza para recorrer arreglos y retornar un nuevo arreglo
 
-/* El metodo forEach() esta pensado para recorrer colecciones, mientras que el metodo map() esta pensado para iterar sobre una coleccion dada, pero con el objetivo de tratar esa coleccion y devolver una nueva con los elementos modificados a partir de la anterior.
-*/
-
 const arrNumbers2 = [1, 2, 3, 4, 5];
 arrNumbers2.forEach(function(number) {
     console.log(number);
@@ -79,7 +76,7 @@ const nuevoArregloNumber = arrNumbers2.map((number)=>{
 
 console.log(nuevoArregloNumber);
 
-// Array Methods: son metodos que nos permiten manipular arreglos
+// Array Methods
 
 const dogs = [
     {
